@@ -53,7 +53,7 @@ export const SvgSprite = defineComponent({
           'xmlns:xlink': 'http://www.w3.org/1999/xlink',
           // eslint-disable-next-line quote-props
           href: href.value,
-          'xlink-href': href.value,
+          'xlink:href': href.value,
         })
       )
   },
